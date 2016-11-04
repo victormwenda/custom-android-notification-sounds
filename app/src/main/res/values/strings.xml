@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SettingsDemo</string>
+    <string name="chat_notifications">Chat notifications</string>
+    <string name="moments_notifications">Moments notifications</string>
+    <string name="enable">Enable</string>
+    <string name="sound">Sound</string>
+    <string name="send_notification">Send notification</string>
+</resources>
