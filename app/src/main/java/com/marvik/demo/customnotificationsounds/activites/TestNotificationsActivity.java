@@ -1,4 +1,4 @@
-package com.briansourcecode.zone.settingsdemo;
+package com.marvik.demo.customnotificationsounds.activites;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,11 +6,24 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 
-import static com.briansourcecode.zone.settingsdemo.NotificationFragment.MOMENT_SOUND_REQUEST_CODE;
-import static com.briansourcecode.zone.settingsdemo.NotificationFragment.CHAT_SOUND_REQUEST_CODE;
+import com.marvik.demo.customnotificationsounds.R;
+import com.marvik.demo.customnotificationsounds.callbacks.NotificationFragmentCallbacks;
+import com.marvik.demo.customnotificationsounds.fragments.NotificationFragment;
+import com.marvik.demo.customnotificationsounds.prefs.AppPrefsManager;
+
+import static com.marvik.demo.customnotificationsounds.fragments.NotificationFragment.CHAT_SOUND_REQUEST_CODE;
+import static com.marvik.demo.customnotificationsounds.fragments.NotificationFragment.MOMENT_SOUND_REQUEST_CODE;
 
 /**
- * Created by User on 04-Nov-16.
+ * Project - custom-android-notification-sounds
+ * Package - com.marvik.demo.customnotificationsounds
+ * <p>
+ * Victor Mwenda
+ * +254(0)718034449
+ * vmwenda.vm@gmail.com
+ * <p>
+ * Android App Development Laptop
+ * Created by victor on 11/4/2016 at 4:21 PM.
  */
 public class TestNotificationsActivity extends Activity implements NotificationFragmentCallbacks {
 

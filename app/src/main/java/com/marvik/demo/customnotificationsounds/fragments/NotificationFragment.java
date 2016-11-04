@@ -1,4 +1,4 @@
-package com.briansourcecode.zone.settingsdemo;
+package com.marvik.demo.customnotificationsounds.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -21,9 +21,20 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.marvik.demo.customnotificationsounds.R;
+import com.marvik.demo.customnotificationsounds.callbacks.NotificationFragmentCallbacks;
+import com.marvik.demo.customnotificationsounds.prefs.AppPrefsManager;
 
 /**
- * Created by User on 04-Nov-16.
+ * Project - custom-android-notification-sounds
+ * Package - com.marvik.demo.customnotificationsounds
+ * <p>
+ * Victor Mwenda
+ * +254(0)718034449
+ * vmwenda.vm@gmail.com
+ * <p>
+ * Android App Development Laptop
+ * Created by victor on 11/4/2016 at 4:21 PM.
  */
 public class NotificationFragment extends Fragment {
 
